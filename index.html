@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Abdul Rauf - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <!-- Favicon  -->
+
+    <link rel="icon" href="assets/my-photo.jpg" type="image/x-icon">
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Josefin+Sans:wght@600;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-color">
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-color">
+  <div class="fixed-width d-flex justify-content-between align-items-center pt-3 pb-1">
+      <div class="items-left">
+          <a href="#"><img class="img-fluid site-logo" src="assets/site-logo-removebg-preview.png" alt=""></a>
+      </div>
+      <div class="items-right d-flex align-items-center">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#coding">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- New Dark Mode Button with Icon -->
+          <button id="darkModeToggle" class="toggle-btn">
+              <span id="toggleIcon">☀️</span>
+          </button>
+      </div>
+  </div>
+</nav>
+
+
+
+      <div data-aos="zoom-in" data-aos-duration="500" id="about" class="fixed-width bg-color top-part mt-5 mb-5">
+        <div class="row align-items-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <h2 class="heading-style">Hi, I'm</h2>
+                <div class="spacer mt-3 mb-3" style="height: 4px; background-color: #23294C; width: 100px;"></div>
+                <div class="box">
+                  <h1 class="heading-h1-style gradient-text">Hamza Abdul Rauf</h1>    
+                </div>
+                
+                
+                <div class="spacer mb-3" style="height: 4px; background-color: #23294C; width: 100px;"></div>
+                <p class="heading-para">I'm a <span>web developer</span> with expertise in Frontend. So far, I've built many projects using my frontend skills, especially a <a href="https://www.youtube.com/watch?v=AvYWXeLejbU&feature=youtu.be" target="_blank">Chat App</a> and a <a href="https://www.youtube.com/watch?v=NXoNiBqCsRk" target="_blank">Banking System</a></p>
+                <div class="blogs-images pb-5">
+                  <div class="social-icons-row d-flex flex-wrap">
+                    <a href="https://www.instagram.com/its_h.a.r?igsh=bHZqd2J5N3d3Y3Jk" target="_blank"><div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <i class="fa-brands fa-instagram"></i>
+                    </div></a>
+                    <a href="https://github.com/HHARC" target="_blank"><div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <i class="fa-brands fa-github"></i>
+                    </div></a>
+                    <a href="https://www.linkedin.com/in/hamza-abdul-rauf?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </div></a>
+                  </div>
+                </div>
+                
+                
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="img text-end">
+                    <img class="img-fluid my-image" src="assets/my-photo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      <div id="services" class="work tight-width pt-5 pb-5">
+        <div class="text text-center pb-2">
+          <h2 class="h2-heading-style">My Skills & Portfolio</h2>
+        </div>
+
+        <div class="ways-help row d-flex flex-wrap">
+          
+        
+          <div data-aos="fade-right" data-aos-duration="500" class="writing col-12 col-sm-12 col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-end align-items-center pb-2">
+            <div class="writing-img text-center non-t">
+                <a href="#writing">
+                  <img class="img-fluid" src="assets/tech-writing.jpg" alt="">
+                  <h3 class="h3-heading text-center pt-3">My Skills</h3>
+                </a>
+            </div>
+          </div>
+
+          <div data-aos="fade-left" data-aos-duration="500" class="coding col-12 col-sm-12 col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-start align-items-center pb-2">
+              <div class="coding-img text-center non-t">
+                <a href="#coding">
+                  <img class="img-fluid" src="assets/premium_photo-1726754457459-d2dfa2e3a434.avif" alt="">
+                  <h3 class="h3-heading text-center pt-3">My Projects</h3>
+                </a>
+                  
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="500" id="writing" class="writing-work fixed-width pt-3 pb-3">
+        <div class="row d-flex">
+          <div class="col col-12 col-sm-12 col-md-5 col-lg-5">
+            <h2 class="h2-heading-style">My Skills</h2>
+            <p class="heading-para">Like most web developers, I started off by learning <strong>HTML, CSS, Bootstrap and JavaScript</strong>. Then,I moved to <strong>React and Tailwind</strong> and built many front-end projects using these skills.</p>
+            <p class="heading-para">Now I am working on my backend skills by learning <strong>Node.js</strong> environment, <strong>Express.js</strong> and <strong>Mongoose</strong> (MongoDB's framework). To strenthen my backend skills. </p>
+            <p class="heading-para">If you need help with building a website, hit me up and let's discuss your project :)</p>
+            <button class="contact-button mb-5">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScfsaQWrGY0WeXiiX3XeBN7vkh74j1REhyUtNT17tjdYtRvEw/viewform?usp=header" target="_blank">
+                  <span>Contact Me</span>
+              </a>
+          </button>          
+          </div>
+
+          <div class="col col-12 col-sm-12 col-md-7 col-lg-7">
+            
+            <div class="published-articles">
+              <h2 class="h2-heading-style">My Stack</h2>
+              <h3 class="h3-heading pt-4">Frontend</h3>
+  
+              <div class="blogs-images">
+                <div class="icon-row-1 d-flex flex-wrap">
+                  <div class="icon-div d-flex align-items-center mt-2 non-t">
+                    <img src="assets/html.png" alt="">
+                    <p class="icon-text">HTML</p>
+                  </div>
+                  <div class="icon-div d-flex align-items-center mt-2 non-t">
+                    <img src="assets/css.png" alt="">
+                    <p class="icon-text">CSS</p>
+                  </div>
+                  <div class="icon-div d-flex align-items-center mt-2 non-t">
+                    <img src="assets/bootstrap.png" alt="">
+                    <p class="icon-text">Boostrap</p>
+                  </div>
+                </div>
+                
+                <div class="icon-row-2 d-flex flex-wrap">
+                  <div class="icon-div d-flex align-items-center mt-2 non-t">
+                    <img src="assets/javascript.jpg" alt="">
+                    <p class="icon-text">JavaScript</p>
+                  </div>
+                  <div class="icon-div d-flex align-items-center mt-2 non-t">
+                    <img src="assets/react.png" alt="">
+                    <p class="icon-text">React</p>
+                  </div>
+                  <div class="icon-div d-flex align-items-center mt-2 non-t">
+                    <img src="assets/tailwind-css.svg" alt="">
+                  </div>
+                </div>
+                </div>
+               
+              
+                
+              </div>
+
+              <h3 class="h3-heading pt-4">Backend</h3>
+      
+              <div class="blogs-images">
+                <div class="icon-row-1 d-flex flex-wrap">
+                  <div class="icon-div d-flex align-items-center mt-2 non-t">
+                    <img src="assets/node.png" alt="">
+                    <p class="icon-text">Node.js</p>
+                  </div>
+                  <div class="icon-div d-flex align-items-center mt-2 non-t">
+                    <img src="assets/mongo.png" alt="">
+                    <p class="icon-text">MongoDB</p>
+                  </div>
+                  
+                </div>
+                <div class="icon-row-1 d-flex flex-wrap">
+                  
+                  <div class="icon-div d-flex align-items-center mt-2 non-t">
+                    <img src="assets/express.png" alt="">
+                    <p class="icon-text">Express.js</p>
+                  </div>
+                  
+                </div>
+              </div>
+
+              
+
+              
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="500" id="coding" class="writing-work fixed-width pt-5 pb-5">
+        <div class="row d-flex">
+          <div class="col col-12 col-sm-12 col-md-5 col-lg-5">
+            <h2 class="h2-heading-style">My Projects</h2>
+            
+            <p class="heading-para">I started learning web dev with HTML and CSS and made this <a href="https://hharc.github.io/Food-Ordering-Website/#">Food Ordering Website</a>  Then I learned some JavaScript and made this <a href="https://hharc.github.io/Linker/">Link saver app</a> , <a href="https://hharc.github.io/Mapty/"> Mapty</a> to track your exercise ,<a href="https://hharc.github.io/Code-Editor/"> Code Editor</a> and <a href="https://hharc.github.io/Bank-Website/"> Bankist</a> as a frontend website for my <a href="https://hharc.github.io/Bank-/">Bankist App</a>.</p>
+            <p class="heading-para">Then, I learned React and Tailwind and made some projects using it, including this <a href="https://get-in-touch-beta.vercel.app/">Get In Touch</a> (chat app) and a <a href="https://gpa-predictor.vercel.app/">GPA Predictor</a>.</p>
+            
+          </div>
+
+          <div class="col col-12 col-sm-12 col-md-7 col-lg-7">
+            
+            <div class="published-articles">
+              <h3 class="h3-heading">Front-end Projects</h3>
+              <div class="blogs-images">
+                <div class="icon-row d-flex flex-wrap">
+
+                  <a href="https://hharc.github.io/Food-Ordering-Website/#">
+                    <div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <img src="assets/food order.png" alt="">
+                      <p class="icon-text">Food Ordering</p>
+                    </div>
+                  </a>
+
+                  <a href="https://hharc.github.io/Linker/">
+                    <div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <img src="assets/link.png" alt="">
+                      <p class="icon-text">Linker Saver</p>
+                    </div>
+                  </a>
+
+                  <a href="https://hharc.github.io/Portfolio/">
+                    <div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <img src="assets/person-removebg-preview.png" alt="">
+                      <p class="icon-text">Portfolio</p>
+                    </div>
+                  </a>
+
+                </div>
+
+                <div class="icon-row d-flex flex-wrap">
+                  <a href="https://hharc.github.io/Code-Editor/">
+                    <div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <img src="assets/code editor.webp" alt="">
+                      <p class="icon-text">Code Editor</p>
+                    </div>
+                  </a>
+                  <a href="https://hharc.github.io/Mapty/">
+                    <div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <img src="assets/Map.jpeg" alt="">
+                      <p class="icon-text">Mapty</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="icon-row d-flex flex-wrap">
+                  <a href="https://hharc.github.io/Bank-Website/">
+                    <div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <img src="assets/Bank.png" alt="">
+                      <p class="icon-text">Bank Landing Page</p>
+                    </div>
+                  </a>
+                  <a href="https://hharc.github.io/Bank-/">
+                    <div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <img src="assets/Atm-removebg-preview.png" alt="">
+                      <p class="icon-text">Banking System</p>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="icon-row d-flex flex-wrap">
+                  <a href="https://get-in-touch-beta.vercel.app/">
+                    <div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <img src="assets/chat.png" alt="">
+                      <p class="icon-text">Get In Touch</p>
+                    </div>
+                  </a>
+                  <a href="https://gpa-predictor.vercel.app/">
+                    <div class="icon-div d-flex align-items-center mt-2 non-t">
+                      <img src="assets/gpa.png" alt="">
+                      <p class="icon-text">GPA Predictor</p>
+                    </div>
+                  </a>
+                </div>
+              
+                
+
+              </div>
+              
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Project: Czone Clone -->
+
+      <div data-aos="fade-right" data-aos-duration="500" class="project-czone fixed-width pt-5 pb-5">
+        <h2 class="h2-heading-style m-0 text-center">An overview of Get In Touch</h2>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/AvYWXeLejbU?si=I1pUj-xDaJE--GuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+      </div>
+
+      <div data-aos="fade-right" data-aos-duration="500" class="project-czone fixed-width pt-5 pb-5">
+        <h2 class="h2-heading-style m-0 text-center"> An overview of Bankist </h2>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NXoNiBqCsRk?si=vTmR7VmpDTsOibLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+      </div>
+
+      
+
+      <div data-aos="fade-right" data-aos-duration="500" class="project-czone fixed-width pt-5 pb-5">
+        <h2 class="h2-heading-style text-center">An overview of Mapty</h2>
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zd-CJjNfp2Y?si=f9PqHarptu1J35pE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+      </div>
+
+      
+
+      <div data-aos="zoom-in" data-aos-duration="500" id="contact" class="contact fixed-width py-5 my-3">
+        <div class="heading text-center pt-3">
+          <h2 class="h2-heading-style p-0 m-0">Hit Me Up</h2>
+          <div class="envelope">
+            <div class="letter-image ">
+              <div class="animated-mail">
+                <div class="back-fold"></div>
+                <div class="letter">
+                  <div class="letter-border"></div>
+                  <div class="letter-title"></div>
+                  <div class="letter-context"></div>
+                  <div class="letter-stamp">
+                    <div class="letter-stamp-inner"></div>
+                  </div>
+                </div>
+                <div class="top-fold"></div>
+                <div class="body"></div>
+                <div class="left-fold"></div>
+              </div>
+              <div class="shadow"></div>
+            </div>
+          </div>
+          <p class="heading-para contact-para py-2 text-center">If you need help with making a website, message me and let's discuss your project :)</p>
+        </div>
+        <div class="text-center py-3">
+          <button class="contact-button">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScfsaQWrGY0WeXiiX3XeBN7vkh74j1REhyUtNT17tjdYtRvEw/viewform?usp=header" target="_blank">
+                <span>Contact Me</span>
+            </a>
+          </button> 
+        </div>
+      </div>
+
+
+      <!-- Envelope -->
+
+      
+
+      <div class="footer mt-5 pb-1">
+        <p class="footer-text text-center pt-4">Made with ❤️ by Hamza Abdul Rauf</p>
+      </div>
+          
+      
+      <script src="script.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
