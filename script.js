@@ -10,6 +10,7 @@
 //         document.querySelector('.img-' + i).classList.add('d-none');
 //     }
 
+
     
 //     document.querySelector('.img-' + index).classList.remove('d-none');
 // }
