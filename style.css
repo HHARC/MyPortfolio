@@ -1051,3 +1051,26 @@ button {
 }
 
 /* Dark Mode Specific Styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.iframe-container iframe {
+  width: 100%;
+  height: auto;
+  min-width: unset;
+  min-height: unset;
+}
+@media (max-width: 768px) {
+  .fixed-width {
+      width: 90%; /* Increase width on smaller screens */
+  }
+}
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+html, body {
+  overflow-x: hidden;
+}
