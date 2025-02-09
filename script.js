@@ -146,3 +146,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menuToggle");
+  const menuIcon = document.getElementById("menuIcon");
+  const closeMenu = document.getElementById("closeMenu");
+  const navbarNav = document.getElementById("navbarNav");
+
+  menuToggle.addEventListener("click", function () {
+      navbarNav.classList.toggle("show");
+      menuToggle.style.display = "none"; // Hide hamburger when open
+      closeMenu.classList.add("show");   // Show close button
+  });
+
+  closeMenu.addEventListener("click", function () {
+      navbarNav.classList.remove("show");
+      closeMenu.classList.remove("show"); // Hide close button
+      menuToggle.style.display = "block"; // Show hamburger again
+  });
+
+  // Close when clicking outside
+  document.addEventListener("click", function (event) {
+      if (!menuToggle.contains(event.target) && !navbarNav.contains(event.target) && !closeMenu.contains(event.target)) {
+          navbarNav.classList.remove("show");
+          closeMenu.classList.remove("show"); // Hide close button
+          menuToggle.style.display = "block"; // Show hamburger again
+      }
+  });
+});
+
+document.addEventListener("click", function (event) {
+  const navbarNav = document.getElementById("navbarNav");
+  const menuToggle = document.getElementById("menuToggle");
+
+  // Check if the clicked element is NOT inside the navbar or the toggler button
+  if (!navbarNav.contains(event.target) && !menuToggle.contains(event.target)) {
+      navbarNav.classList.remove("show"); // Close navbar
+  }
+});
