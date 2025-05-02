@@ -124,7 +124,7 @@
 
 @media (min-width: 983px) and (max-width: 1370px) {
   .heading-h1-style {
-      font-size: 50px; /* Adjusted font size for screens between 769px and 1370px */
+      font-size: 48px; /* Adjusted font size for screens between 769px and 1370px */
   }
   .heading-style {
       font-size: 25px; /* Adjusted font size for screens between 769px and 1370px */
@@ -1055,12 +1055,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.iframe-container iframe {
-  width: 100%;
-  height: auto;
-  min-width: unset;
-  min-height: unset;
-}
+
 @media (max-width: 768px) {
   .fixed-width {
       width: 90%; /* Increase width on smaller screens */
